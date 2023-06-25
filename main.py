@@ -1,6 +1,9 @@
 def main():
 
-    original_str = 'Python Programming'
+    original_str = ('Python Programming ')
+    sub1 = original_str[0:7]
+    sub2 = original_str[-12:]
+    merged_str = sub2 + sub1
     ##################################################
     # Comlete your code here
     ##################################################
